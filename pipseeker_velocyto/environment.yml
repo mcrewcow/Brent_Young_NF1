@@ -1,0 +1,12 @@
+name: velocyto-py310
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy<2
+  - velocyto.py=0.17.17
+  - samtools
+  - pysam
+  - h5py
+  - scipy
